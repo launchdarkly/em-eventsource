@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    em-eventsource (0.2.1)
+    em-eventsource (0.2.2)
       em-http-request (~> 1.0)
       eventmachine (~> 1.0)
 
@@ -18,7 +18,7 @@ GEM
       http_parser.rb (>= 0.6.0)
     em-socksify (0.3.0)
       eventmachine (>= 1.0.0.beta.4)
-    eventmachine (1.0.7)
+    eventmachine (1.0.8)
     http_parser.rb (0.6.0)
     minitest (5.3.4)
     minitest-spec-context (0.0.3)
