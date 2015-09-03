@@ -7,7 +7,7 @@ flow = "" # flow = name of flow in URL
 
 $: << 'lib' << '../lib'
 
-require 'em-eventsource'
+require 'ld-em-eventsource'
 
 EM.run do
   source = EM::EventSource.new("https://#{token}:@stream.flowdock.com/flows/#{organization}/#{flow}",

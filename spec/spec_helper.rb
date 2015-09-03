@@ -1,4 +1,4 @@
-require "em-eventsource"
+require "ld-em-eventsource"
 
 module EventMachine
   class MockHttpRequest

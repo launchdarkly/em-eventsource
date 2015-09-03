@@ -6,18 +6,18 @@ See the specification: http://dev.w3.org/html5/eventsource/
 
 Install with Rubygems:
 
-    gem install em-eventsource
+    gem install ld-em-eventsource
 
 If you use bundler, add it to your Gemfile:
 
-    gem "em-eventsource", "~> 0.2.0"
+    gem "ld-em-eventsource", "~> 0.2.2"
 
 ## Usage
 
 Basic usage:
 
 ```ruby
-require "em-eventsource"
+require "ld-em-eventsource"
 EM.run do
   source = EventMachine::EventSource.new("http://example.com/streaming")
   source.message do |message|

@@ -1,6 +1,6 @@
 $: << 'lib' << '../lib'
 
-require 'em-eventsource'
+require 'ld-em-eventsource'
 
 EM.run do
   source = EM::EventSource.new("http://googlecodesamples.com/html5/sse/sse.php")
