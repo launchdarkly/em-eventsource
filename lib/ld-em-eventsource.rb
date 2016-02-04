@@ -42,7 +42,7 @@ module EventMachine
 
       @last_event_id = nil
       @retry = 3 # seconds
-      @inactivity_timeout = 60 # seconds
+      @inactivity_timeout = 0 # seconds
 
       @opens = []
       @errors = []
