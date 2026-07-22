@@ -1,3 +1,7 @@
+# [DEPRECATED]
+
+This repository is deprecated and no longer maintained. LaunchDarkly's SSE client is now [ld-eventsource](https://github.com/launchdarkly/ruby-eventsource). This repository remains only to support legacy references.
+
 # EventSource client for EventMachine
 
 See the specification: http://dev.w3.org/html5/eventsource/
